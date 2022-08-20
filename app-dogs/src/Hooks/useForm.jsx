@@ -11,12 +11,16 @@ const types = {
     message:
       'Insira um password com pelo menos 8 caracteres, 1 letra maiuscula, 1 minuscula e 1 numero',
   },
+  number: {
+    regex: /^\d+$/,
+    message: 'Utilize apenas números'
+  }
 };
 
 const useForm = (type) => {
   const [value, setValue] = React.useState('');
   const [error, setError] = React.useState(null);
-
+ 
   function validate(value) {
     if (type === false) return true;
     if (value.length === 0) {
