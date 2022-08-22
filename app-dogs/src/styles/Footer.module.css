@@ -1,0 +1,16 @@
+.footer{
+  background : #fb1;
+  padding: 2rem 1rem 0 1rem;
+  text-align: center;
+  height: 10rem;
+  color: #764701;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+gap: 1rem;
+}
+
+.footer p{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

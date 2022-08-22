@@ -46,7 +46,7 @@ a{
 }
 
 .mainContainer{
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .title{
   font-family: var(--type-second);
@@ -83,4 +83,18 @@ animation: animeleft 1s forwards
     transform: initial;
   }
 
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+
+.appBody{
+  flex: 1;
+}
+
+.VictoryContainer{
+height: initial !important;
 }
